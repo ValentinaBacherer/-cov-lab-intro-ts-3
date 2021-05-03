@@ -1,0 +1,37 @@
+body{
+    margin: 3rem;
+    text-align: center;
+}
+
+main{
+    margin: 1rem auto
+}
+button{
+    padding: 0.7rem;
+    box-shadow: 0 3px 15px 0 rgb(0 0 0 / 12%);
+}
+h1{
+    color: rgb(48, 48, 48);
+    text-shadow:2px 2px 18px rgb(0 0 0 / 20%);
+}
+
+.box{
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 100px;
+    width: 100px;
+    margin: 0.3rem;
+    text-align: center;
+    vertical-align: center;
+    line-height: 100px;
+    font-size: 3rem;
+    box-shadow: 0 6px 20px 0 rgb(0 0 0 / 18%);
+}
+
+.container{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
